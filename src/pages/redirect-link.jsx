@@ -1,4 +1,3 @@
-
 const RedirectLink = () => {
   return (
     <div>
