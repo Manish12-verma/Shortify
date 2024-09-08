@@ -17,7 +17,7 @@ const navigate = useNavigate();
 
 const handleShorten=(e)=>{
   e.preventDefault();
-  if(longUrl)   navigate(`/auth?createNew=${longUrl}`); 
+  if(longUrl)  navigate(`/auth?createNew=${longUrl}`); 
 }
 
 return (
